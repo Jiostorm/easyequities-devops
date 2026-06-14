@@ -23,3 +23,10 @@ resource "gitea_repository_branch_protection" "main" {
   block_merge_on_outdated_branch  = true
   block_merge_on_rejected_reviews = true
 }
+
+module "docker_app" {
+  source = "./modules/docker-app"
+
+  host_socket      = var.docker_host_socket
+  host_port_number = 8080
+}
