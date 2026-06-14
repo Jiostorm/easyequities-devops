@@ -13,3 +13,8 @@ variable "gitea_user_username" {
   type        = string
   description = "Gitea User Account Username"
 }
+
+variable "docker_host_socket" {
+  type        = string
+  description = "Docker Host Socket"
+}
