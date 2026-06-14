@@ -1,0 +1,5 @@
+docker_health_checker_container_id = "a9bb7dc749d757f1a7937253bc0591a60b619c2ade28ca77756c72cec693a3c7"
+docker_network_id = "6a4eeeb9a62cc219708ae6b6daf131e87f2f88488e11b5c3d728fa440d06d47e"
+docker_nginx_container_id = "b35b6b0230a03ea4af0396dc8d1e509f89399e3ca618e891fc937b63b66bbc3d"
+repository_clone_url = "http://localhost:3000/Jiostorm/terraform-docker-exam.git"
+repository_web_url = "http://localhost:3000/Jiostorm/terraform-docker-exam"

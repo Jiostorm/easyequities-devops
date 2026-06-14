@@ -1,0 +1,19 @@
+module.docker_app.data.docker_registry_image.nginx: Reading...
+module.docker_app.data.docker_registry_image.curl: Reading...
+module.docker_app.docker_volume.exam_volume: Refreshing state... [id=exam-web-data]
+module.docker_app.docker_network.exam_network: Refreshing state... [id=6a4eeeb9a62cc219708ae6b6daf131e87f2f88488e11b5c3d728fa440d06d47e]
+data.gitea_user.target: Reading...
+data.gitea_user.target: Read complete after 0s
+gitea_repository.terraform_docker_exam: Refreshing state... [id=1]
+gitea_repository_branch_protection.main: Refreshing state... [id=main]
+module.docker_app.data.docker_registry_image.nginx: Read complete after 2s [id=sha256:09369da6b10306312cd908661320086bf87fbae1b6b0c49a1f50ba531fef2eab]
+module.docker_app.docker_image.nginx: Refreshing state... [id=sha256:09369da6b10306312cd908661320086bf87fbae1b6b0c49a1f50ba531fef2eabnginx:1.27.4]
+module.docker_app.docker_container.exam_web_server: Refreshing state... [id=b35b6b0230a03ea4af0396dc8d1e509f89399e3ca618e891fc937b63b66bbc3d]
+module.docker_app.data.docker_registry_image.curl: Read complete after 2s [id=sha256:935d9100e9ba842cdb060de42472c7ca90cfe9a7c96e4dacb55e79e560b3ff40]
+module.docker_app.docker_image.curl: Refreshing state... [id=sha256:935d9100e9ba842cdb060de42472c7ca90cfe9a7c96e4dacb55e79e560b3ff40curlimages/curl:8.17.0]
+module.docker_app.docker_container.exam_health_checker: Refreshing state... [id=a9bb7dc749d757f1a7937253bc0591a60b619c2ade28ca77756c72cec693a3c7]
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.

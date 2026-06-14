@@ -1,0 +1,4 @@
+CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS                    PORTS                                                                                  NAMES
+b35b6b0230a0   nginx:1.27.4             "/docker-entrypoint.…"   37 seconds ago   Up 37 seconds (healthy)   0.0.0.0:8081->80/tcp                                                                   exam-web-server
+a9bb7dc749d7   curlimages/curl:8.17.0   "/bin/sh -c 'while t…"   2 minutes ago    Up 2 minutes                                                                                                     exam-health-checker
+14dd5520eeed   gitea/gitea:1.22.6       "/usr/bin/entrypoint…"   5 minutes ago    Up 5 minutes              0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp, 0.0.0.0:2222->22/tcp, [::]:2222->22/tcp   gitea
